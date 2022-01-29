@@ -7,5 +7,5 @@ followed to to_dict (/home/<username>/..)
  and the files are transfered
   
   CAUTION:only python files having the extension ".py" are transfered
-  All of'em who would like to contribute are most welcome i'm a beginer please help me with your
+  All of'em who would like to contribute are most welcome i'm a beginner please help me with your
   suggesions
