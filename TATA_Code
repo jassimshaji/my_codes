@@ -24,16 +24,6 @@ def bitwise_op(H, J):
             out.append(output)
     return out
 
-
-
-
-
-
-
-
-
-
-
 def main():
     n = int(input())
     rows_of_matrix = []
