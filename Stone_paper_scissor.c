@@ -65,7 +65,7 @@ void score_computation(char *player1_choice, char *computer_choice, char *player
     {
         printf("so %s is the winner !!!!!\n\n", player_name);
     }
-    if (score_of_player1 == score_of_computer)
+    else if (score_of_player1 == score_of_computer)
     {
         printf("Play again.......!\n\n");
     }
