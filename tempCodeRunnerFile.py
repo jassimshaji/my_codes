@@ -1,1 +1,1 @@
-linkedList.Print()
+default["jassim"]

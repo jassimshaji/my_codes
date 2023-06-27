@@ -1,10 +1,10 @@
 
-# Node creation 
+# Node creation
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-    
+
 # linkedlist creation and various updating and printing methods
 class Linkedlist:
     def __init__(self):
@@ -27,11 +27,6 @@ class Linkedlist:
         begnode.next = self.head
         self.head = begnode
 
-        
-        
-
-
-
 
     def Print(self):
         if self.head is None:
@@ -44,32 +39,19 @@ class Linkedlist:
                 break
             print(f"{currentData.next.data}--->",end = "")
             currentData = currentData.next
-           
-       
 
 
-
-
-            
 firstNode = Node("jassim")
 linkedList = Linkedlist()
 linkedList.insertData(firstNode)
 thirdNode = Node("parvathy")
-begData = Node("Somebody") 
+begData = Node("Somebody")
 fourthNode = Node("you")
 linkedList.insertData(thirdNode)
 linkedList.insertAtBegining(begData)
-linkedList.insertData(fourthNode) 
+linkedList.insertData(fourthNode)
 
 linkedList.Print()
 
-     
-
-       
 
 
-           
-       
-            
-
-     

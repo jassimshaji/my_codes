@@ -14,7 +14,7 @@ class Solution:
         print(f"The list of modified nums[] is {nums[:k]}")   
         return k
 duplicateList = Solution()
-k = duplicateList.removeDuplicates([1, 1, 2, 3, 3, 4, 4,5 ,5 ,5 ,5 ,5 ,6 ,6 ,6 ,6 ,6 ,8 ,8 ,8 ,8])
+k = duplicateList.removeDuplicates([1, 1, 2, 3, 3, 4, 4, 5 ,5 ,5 ,5 ,5 ,6 ,6 ,6 ,6 ,6 ,8 ,8 ,8 ,8])
 print(f"The number of unique_elements is {k}")
 
 
